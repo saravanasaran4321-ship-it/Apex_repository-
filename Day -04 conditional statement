@@ -1,0 +1,104 @@
+count=0
+while (count<9):
+  print('The count is:',count)
+  count=count+1
+  print ("Good bye!")
+count=0
+while count<7:
+  print(count,"is less then 7")
+  count=count+7
+else:
+  print("Loop End")
+
+#for loop 
+  for i in range(0,30,3):
+    print(i)
+
+#loop conntrol statement
+  for i in range(1,6):
+    if i==3:
+        break
+    print(i)
+
+#continue statement
+for i in range(1,6):
+    if i ==3:
+        continue
+    print(i)
+
+OUTPUT
+Good bye!
+The count is: 5
+Good bye!
+The count is: 6
+Good bye!
+The count is: 7
+Good bye!
+The count is: 8
+Good bye!
+0 is less then 7
+Loop End
+0
+3
+6
+9
+12
+15
+18
+21
+24
+27
+1
+2
+1
+2
+4
+5
+
+#contitional statement
+#if statement 
+a=33
+b=200
+if b>a:
+  print("b is greater than a")
+
+#else statement
+a=200
+b=33
+if b>a:
+  print("b is greater than a")
+else:
+  print("b is not gerater than a")
+
+
+#elif statement
+a=200
+b=20
+if b>a:
+  print("b is greater than a")
+elif a==b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+#Nested IF Statement
+var=185
+if var < 200:
+  print("Expression values is less than 200")
+  if(var >150 and var<170):
+    print("which is greater than 150 less than 170")
+elif (var==100 or var>180):
+  print("which is equal to 100 or greater than 180")
+elif var== 50:
+  print("which is 50")
+elif var <50:
+  print("Expression value is less than 50")
+else:
+  print ("could not find true expression")
+  print("Good bye!")
+
+OUTPUT
+b is greater than a
+b is not gerater than a
+a is greater than b
+Expression values is less than 200
